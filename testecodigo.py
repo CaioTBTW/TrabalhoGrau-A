@@ -14,5 +14,5 @@ voxelarray = cube1 | cube2
 fig, ax = plt.subplots (subplot_kw= {"projection": "3d"})
 ax.voxels(voxelarray, facecolors="pink", edgecolor= "red")
 ax.set (xlabel= "X", ylabel= "Y", zlabel= "Z")
-
+# teste
 plt.show()
